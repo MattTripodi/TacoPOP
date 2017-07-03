@@ -11,18 +11,18 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TacoCell" customModule="TacoPOP" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="167" height="196"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TacoCell" id="gTV-IL-0wX" customClass="TacoCell" customModule="TacoPOP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="196" height="228"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="167" height="196"/>
+                <rect key="frame" x="0.0" y="0.0" width="196" height="228"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Brisket" translatesAutoresizingMaskIntoConstraints="NO" id="vl6-3G-aZ7">
-                        <rect key="frame" x="0.0" y="0.0" width="167" height="162.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="196" height="194.5"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brisket Taco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtP-G1-Hu2">
-                        <rect key="frame" x="0.0" y="167.5" width="167" height="23.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brisket Taco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="jtP-G1-Hu2">
+                        <rect key="frame" x="0.0" y="199.5" width="196" height="23.5"/>
                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -38,12 +38,12 @@
                 <constraint firstItem="vl6-3G-aZ7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tMO-gv-O54"/>
                 <constraint firstItem="vl6-3G-aZ7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yaR-RA-38s"/>
             </constraints>
-            <size key="customSize" width="248" height="235"/>
+            <size key="customSize" width="277" height="267"/>
             <connections>
                 <outlet property="tacoImage" destination="vl6-3G-aZ7" id="Mlf-If-hSP"/>
                 <outlet property="tacoLabel" destination="jtP-G1-Hu2" id="JSc-1R-MTj"/>
             </connections>
-            <point key="canvasLocation" x="124" y="144.5"/>
+            <point key="canvasLocation" x="138" y="160"/>
         </collectionViewCell>
     </objects>
     <resources>
